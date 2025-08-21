@@ -8,11 +8,6 @@ let senhaCadrasto = prompt("qual sua senha?").toLowerCase()
 if(idadeCadrasto > 0 && idadeCadrasto >= 13){
     alert(`
         --- Cadastro de Usuário ---
-        Digite seu nome: ${nomeCadrastro}
-        Digite sua idade: ${idadeCadrasto}
-        Digite uma senha: ${senhaCadrasto}
-
-
         Cadastro realizado com sucesso!
         `)
 
@@ -25,9 +20,6 @@ if(idadeCadrasto > 0 && idadeCadrasto >= 13){
     if(nomeLogin === nomeCadrastro && senhaLogin === senhaCadrasto){
         alert(`
             --- Login ---
-            Digite seu nome: ${nomeLogin}
-            Digite sua senha: ${senhaLogin}
-
             Login realizado com sucesso! Bem-vindo, ${nomeCadrastro}.
             `)
     } else {
@@ -38,10 +30,6 @@ if(idadeCadrasto > 0 && idadeCadrasto >= 13){
 } else {
     alert(`
         --- Cadastro de Usuário ---
-        Digite seu nome: ${nomeCadrastro}
-        Digite sua idade: ${idadeCadrasto}
-        Digite uma senha: ${senhaCadrasto}
-        
         Você não pode se cadastrar. Idade mínima: 13 anos.
         `)
 }
