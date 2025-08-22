@@ -27,7 +27,6 @@ if(idadeCadrasto > 0 && idadeCadrasto >= 13){
 // caso se a idade foi invalida
 } else {
     alert(`
-        --- Cadastro de Usuário ---
         Você não pode se cadastrar. Idade mínima: 13 anos.
         `)
 }
